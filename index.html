@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quiz Website HTML CSS JS | Codehal</title>
+    <title>Quiz Website</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="icon.png" />
   </head>
 
   <body>
@@ -19,28 +20,72 @@
           <a href="#">Contact</a>
         </nav>
       </header>
-      <section class="home">
-        <div class="home-content">
-          <h1>Quiz Website</h1>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius
-            suscipit praesentium beatae officia voluptate id autem, quis optio
-            fugiat alias excepturi voluptas sapiente. Cum dolores ex officiis,
-            natus est corrupti!
-          </p>
-          <button class="start-btn">Start Quiz</button>
-        </div>
-      </section>
+      <div class="container">
+        <section class="quiz-section">
+          <div class="quiz-box">
+            <h1>Misha Quiz</h1>
+            <div class="quiz-header">
+              <span>Quiz Website Tutorials</span>
+              <span class="header-score">Score: 0 / 5</span>
+            </div>
+            <h2 class="question-text">What does HTML stand for?</h2>
+            <div class="option-list">
+              <!-- <div class="option">
+                <span>A. Hyper Type Multi Language</span>
+              </div>
+              <div class="option">
+                <span>B. Hyper Text Multiple Language</span>
+              </div>
+              <div class="option">
+                <span>C. Hyper Text Markup Language</span>
+              </div>
+              <div class="option">
+                <span>D. Home Text Multi Language</span>
+              </div> -->
+            </div>
+            <div class="quiz-footer">
+              <span class="question-total">1 of 5 Qustions</span>
+              <button class="next-btn">Next</button>
+            </div>
+          </div>
+          <div class="result-box">
+            <h2>Quiz Result!</h2>
+            <div class="percantage-container">
+              <div class="circular-progress">
+                <span class="progress-value">0%</span>
+              </div>
+              <span class="score-text">Your Score 0 out of 5</span>
+            </div>
+            <div class="buttons">
+              <button class="tryAgain-btn">Try Again</button>
+              <button class="goHome-btn">Go To Home</button>
+            </div>
+          </div>
+        </section>
+        <section class="home">
+          <div class="home-content">
+            <h1>Quiz Website</h1>
+            <p>
+              Test your coding knowledge and problem-solving skills with our
+              engaging and educational quiz designed for both beginners and
+              experienced programmers. Whether you're a seasoned developer or
+              just starting your coding journey, our carefully crafted questions
+              will challenge and inspire you.
+            </p>
+            <button class="start-btn">Start Quiz</button>
+          </div>
+        </section>
+      </div>
     </main>
     <div class="popup-info">
       <h2>Quiz Guide</h2>
-      <span class="info">1. Lorem ipsum dolor sit amet consectetur</span>
-      <span class="info">2. Lorem ipsum dolor sit amet consectetur</span>
-      <span class="info">3. Lorem ipsum dolor sit amet consectetur</span>
-      <span class="info">4. Lorem ipsum dolor sit amet consectetur</span>
-      <span class="info">5. Lorem ipsum dolor sit amet consectetur</span>
+      <span class="info">1. No Electronic Devices</span>
+      <span class="info">2. Answer Submission</span>
+      <span class="info">3. Scoring</span>
+      <span class="info">4. Fair Play and Sportsmanship</span>
+      <span class="info">5. Final Decision</span>
       <div class="btn-group">
-        <button class="info-btn">Exit Quiz</button>
+        <button class="info-btn exit-btn">Exit Quiz</button>
         <a href="#" class="info-btn continue-btn">Continue</a>
       </div>
     </div>
